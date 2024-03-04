@@ -81,10 +81,3 @@ If you have Docker installed locally, you can run your application with:
 docker run -e PORT=8888 -p 8888:8888 <your-docker-hub-username>/<your-docker-hub-repo>:<your-docker-hub-image-tag>
 ```
 Open [http://localhost:8888](http://localhost:8888) to view your application.
-
-If you don't have Docker installed locally, you can run your application on any container host such as:
-
-- Kubernetes
-- Knative
-- Hashicorp Nomad
-- Any managed container hosting service
